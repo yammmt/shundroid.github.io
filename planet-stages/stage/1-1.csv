@@ -3,6 +3,8 @@
 *custom,mission,Coin,>=,4
 //:/header
 *skybox,sky-w1;
+*sound,bgmz;
+*custom,camerahalstar,-2;
 w1/block2,-12,0=0
 w1/block2,-10,0=1
 w1/block2,-8,0=2
@@ -110,6 +112,7 @@ w1/block2,60,-10=103
 w1/block2,68,-10=104
 w1/block2,70,-10=105
 supergrape,76,-10=106
+*custom,supergrape,106,1
 w1/block2,92,-10=107
 w1/block2,-12,-12=108
 w1/block2,-8,-12=109
@@ -131,7 +134,9 @@ coin/coin1,14,-14=124
 coin/coin1,16,-14=125
 coin/coin1,18,-14=126
 supergrape,54,-14=127
+*custom,supergrape,127,3
 supergrape,56,-14=128
+*custom,supergrape,128,2
 w1/block2,68,-14=129
 w1/block2,92,-14=130
 w1/block2,-12,-16=131
