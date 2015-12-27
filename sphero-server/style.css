@@ -1,0 +1,47 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+}
+header {
+  height: 50vh;
+  box-sizing: border-box;
+  background-image: url("img/header.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  box-shadow: 0px -5px 6px 3px rgba(0, 0, 0, 0.6) inset;
+}
+.wrapper {
+  text-align: center;
+}
+.wrapper article {
+  padding-bottom: 30vh;
+  height: 50vh;
+  box-sizing: border-box;
+}
+.wrapper article img {
+  width: 80vw;
+}
+.wrapper article h1 {
+  font-size: 30px;
+}
+.wrapper article h2 {
+  font-weight: normal;
+}
+.wrapper article section {
+  margin-top: 30px;
+}
+br {
+  margin-bottom: 20px;
+}
+.btn {
+  padding: 10px;
+  background-color: skyblue;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.2s linear 0s;
+}
+.btn:hover {
+  background-color: lightseagreen;
+}

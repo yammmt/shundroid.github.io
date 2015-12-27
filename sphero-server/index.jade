@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Sphero-Server
+    link(rel="stylesheet", type="text/css", href="style.css")
+  body
+    header
+    .wrapper
+      article
+        h1 Sphero-Server
+        h2 IoTデバイスと、Spheroをつなぐ。
+      article
+        h2 ソースコード
+        section
+          a(href="https://github.com/shundroid/Sphero-Server").btn View on Github
+          br
+          | バグや要望はドシドシどうぞ！
+      article
+        h2 仕組み
+        img(src="img/sphero2.png")
+        section.
+          デバイスからWebSocketでNode.jsサーバーと通信。Node.jsサーバーからBluetoothでSpheroと通信。
